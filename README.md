@@ -8,6 +8,8 @@ Based on [Gather Amazon S3 bucket info using AWS SDK service integrations - AWS 
 
 Deploy [`example01.yaml`](example01.yaml) stack
 
+> NOTE: `ResultSelector` added to `ListBuckets` to hard code an array containing a single bucket to reduce amount of processing.
+
 ```sh
 
 PROFILE="admin"
